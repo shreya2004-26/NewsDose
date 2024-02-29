@@ -16,6 +16,7 @@ const Science = () => {
     setApiData(jsonData.articles);
   };
   useEffect(() => {
+    document.getElementById("title").innerText = "NewsDose - Science";
     getApiDataFunc();
   }, []);
   return (

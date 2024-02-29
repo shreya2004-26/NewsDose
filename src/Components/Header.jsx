@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-black">
         <div className="container-fluid">
-          <Link className="navbar-brand text-white" to="#">
+          <Link className="navbar-brand text-white" to="/">
             NewsDose
           </Link>
           <button
@@ -86,22 +86,6 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <div className="form-check form-switch form-check-reverse">
-                <label
-                  className="form-check-label text-white"
-                  htmlFor="flexSwitchCheckReverse"
-                >
-                  Enable Dark Mode
-                </label>
-                <input
-                  className="form-check-input"
-                  type="checkbox"
-                  id="flexSwitchCheckReverse"
-                  style={{ cursor: "pointer" }}
-                />
-              </div>
-            </form>
           </div>
         </div>
       </nav>

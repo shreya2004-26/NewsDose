@@ -16,6 +16,7 @@ const Technology = () => {
     setApiData(jsonData.articles);
   };
   useEffect(() => {
+    document.getElementById("title").innerText = "NewsDose - Technology";
     getApiDataFunc();
   }, []);
   return (

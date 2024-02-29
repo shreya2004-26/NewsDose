@@ -16,6 +16,7 @@ const Business = () => {
     setApiData(jsonData.articles);
   };
   useEffect(() => {
+    document.getElementById("title").innerText = "NewsDose - Business";
     getApiDataFunc();
   }, []);
   return (

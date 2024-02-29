@@ -16,6 +16,7 @@ const Home = () => {
     setApiData(jsonData.articles);
   };
   useEffect(() => {
+    document.getElementById("title").innerText = "NewsDose - Home";
     getApiDataFunc();
   }, []);
   return (
