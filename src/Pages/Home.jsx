@@ -12,7 +12,6 @@ const Home = () => {
     );
     //change in  json
     const jsonData = await resp.json();
-    // console.log(jsonData.articles);
     setApiData(jsonData.articles);
   };
   useEffect(() => {
